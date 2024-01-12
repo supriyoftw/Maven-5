@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px Georgia, serif;
+}
+#page-wrap {
+  height: 500px;
+  width: auto;
+  border: 2px solid black;
+}
+h1 {
+  padding: 20px 0 10px;
+  font: 26px , Serif;
+  clear: both;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000;
+ 
+  margin: 0 20px 0 0;
+}
+.box-one {
+  overflow: hidden;
+}
+.box-two {
+  overflow: auto;
+}
+.box-three {
+  overflow: scroll;
+}
